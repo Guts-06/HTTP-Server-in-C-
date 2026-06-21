@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | HTTP Server in C++</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </nav>
+    <div class="container">
+        <h1>About This Project</h1>
+        <p>This HTTP server was built entirely in C++ using raw POSIX system calls — no external libraries.</p>
+        <h2>Tech Stack</h2>
+        <ul>
+            <li>C++17</li>
+            <li>POSIX Sockets (sys/socket.h)</li>
+            <li>pthreads for multi-threading</li>
+            <li>Linux system calls</li>
+        </ul>
+        <h2>Features</h2>
+        <ul>
+            <li>Multi-threaded connection handling</li>
+            <li>HTTP GET request parsing</li>
+            <li>Static file serving (HTML, CSS)</li>
+            <li>Multiple routes (/ /about /style.css)</li>
+            <li>HTTP status codes (200, 404)</li>
+        </ul>
+    </div>
+</body>
+</html>
