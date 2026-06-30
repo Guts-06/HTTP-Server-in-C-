@@ -1,0 +1,11 @@
+# Compiled binary
+server
+
+# Object files
+*.o
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
